@@ -21,29 +21,29 @@
 \problem{Bagging, Random Forest \& Feature Selection, Short Answer }
 
 
-\subsection{(1) Computational Cost}
+\subsection{Computational Cost}
 
 Random Forest has a lower computational cost compared to Bagging with decision trees as base learners. This is because Random Forests use feature bagging, selecting a random subset of features for each tree, leading to smaller and less complex trees.
 
-\subsection{(2) Introducing Randomness}
+\subsection{Introducing Randomness}
 \begin{itemize}
     \item \textbf{Bagging:} Introduces randomness by bootstrapping, creating multiple subsets of the training data through sampling with replacement. Each subset is used to train a different base learner.
     \item \textbf{Random Forest:} In addition to bootstrapping, it randomly selects a subset of features at each split in the decision tree, ensuring more diversity among the trees.
 \end{itemize}
 
-\subsection{(3) Bias-Variance Decomposition}
+\subsection{Bias-Variance Decomposition}
 \begin{itemize}
     \item \textbf{Bagging:} Primarily reduces variance by averaging the predictions of multiple base learners trained on different subsets of the data.
     \item \textbf{Random Forest:} Reduces variance similarly to Bagging but also reduces correlation between the trees by introducing feature randomness, enhancing variance reduction.
 \end{itemize}
 
-\subsection{(4) Purposes of LASSO in Regression}
+\subsection{Purposes of LASSO in Regression}
 \begin{itemize}
     \item \textbf{Feature Selection:} LASSO shrinks some coefficients to exactly zero, selecting a simpler model with fewer features.
     \item \textbf{Regularization:} LASSO adds an L1 norm penalty to the regression loss function, helping to prevent overfitting.
 \end{itemize}
 
-\subsection{(5) L1 Norm vs. L2 Norm}
+\subsection{L1 Norm vs. L2 Norm}
 \begin{itemize}
     \item \textbf{L1 Norm (LASSO):} Encourages sparsity in the model by shrinking some coefficients to zero, effectively performing feature selection.
     \item \textbf{L2 Norm (Ridge):} Distributes the regularization effect more evenly across all coefficients, typically leading to smaller, non-zero coefficients without feature selection.

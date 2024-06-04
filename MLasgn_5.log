@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.29)  4 JUN 2024 20:21
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.29)  4 JUN 2024 20:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -865,8 +865,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-Package rerunfilecheck Info: File `MLasgn_5.out' has not changed.
-(rerunfilecheck)             Checksum: D1EFC9FF17783350E800FB552B21EA07;2673.
+
+
+Package rerunfilecheck Warning: File `MLasgn_5.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `MLasgn_5.out':
+(rerunfilecheck)             Before: 6F95BD461B142EB15391203C10F62C8D;2557
+(rerunfilecheck)             After:  C43C984223338F453EA8887AA9AB7FC4;2528.
  ) 
 Here is how much of TeX's memory you used:
  31576 strings out of 474794
